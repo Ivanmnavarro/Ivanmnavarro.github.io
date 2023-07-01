@@ -1,0 +1,44 @@
+.menu {
+    
+    height: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: #e16e17;
+    position: sticky;
+    top:0px;
+    padding: 2rem;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.menu__logo {
+    height: 3rem;
+    padding-right: 100px;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 2rem
+    ;
+
+
+}
+
+.menu__item {
+    list-style: none;
+}
+
+.menu__link {
+    color: #ffffff;
+    margin-right: 2rem;
+    text-decoration: none;
+    font-family: "Indie Flower";
+    font-size: 1.75rem;
+}
+
+.menu__link:hover {
+    color: #00000060;
+}
