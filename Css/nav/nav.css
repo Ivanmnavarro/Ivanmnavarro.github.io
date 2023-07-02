@@ -4,6 +4,7 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
+    /* flex-wrap: wrap; */
     background: #e16e17;
     position: sticky;
     top:0px;
@@ -14,10 +15,11 @@
 
 .menu__logo {
     height: 3rem;
-    padding-right: 100px;
+    padding-right: 3%;
 }
 
 .menu__lista {
+    width: 70%;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
@@ -33,7 +35,7 @@
 
 .menu__link {
     color: #ffffff;
-    margin-right: 2rem;
+    margin-right: 1rem;
     text-decoration: none;
     font-family: "Indie Flower";
     font-size: 1.75rem;
